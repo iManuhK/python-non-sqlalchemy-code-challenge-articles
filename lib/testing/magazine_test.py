@@ -86,9 +86,7 @@ class TestMagazine:
         
         assert isinstance(magazine_2.category, str)
 
-        # uncomment the next two lines if using Exceptions
-        # with pytest.raises(Exception):
-        #     Magazine("GQ", 2)
+
 
     def test_category_len(self):
         """magazine category has length greater than 0"""
